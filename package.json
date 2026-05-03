@@ -1,14 +1,13 @@
 {
-    "name": "gstbillmaker-pdf-renderer",
-    "version": "1.0.0",
-    "private": true,
-    "description": "Headless Chromium PDF renderer for GST Bill Maker invoices.",
-    "main": "api/render.js",
-    "engines": {
-          "node": "20.x"
-    },
-    "dependencies": {
-          "@sparticuz/chromium": "121.0.0",
-          "puppeteer-core": "21.11.0"
-    }
+      "name": "gstbillmaker-pdf-renderer",
+      "version": "1.0.0",
+      "private": true,
+      "main": "api/render.js",
+      "engines": {
+              "node": "20.x"
+      },
+      "dependencies": {
+              "@sparticuz/chromium-min": "131.0.1",
+              "puppeteer-core": "23.10.4"
+      }
 }

@@ -1,9 +1,10 @@
 {
-  "version": 2,
-  "functions": {
-    "api/render.js": {
-      "maxDuration": 10,
-      "memory": 1024
+    "version": 2,
+    "functions": {
+          "api/render.js": {
+                  "maxDuration": 10,
+                  "memory": 1024,
+                  "includeFiles": "node_modules/@sparticuz/chromium/**"
+          }
     }
-  }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "gstbillmaker-pdf-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless Chromium PDF renderer for GST Bill Maker invoices. Deploys as a Vercel serverless function.",
+  "main": "api/render.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "131.0.1",
+    "puppeteer-core": "23.10.4"
+  }
+}
